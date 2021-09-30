@@ -59,12 +59,10 @@ background-color: rgb(252, 104, 244);
 
 /***Seconda Sezione***/
 .sect2 {
+   
     background-color: lightblue;
-    margin-top: 30px;
-    margin-right: 22px;
-    margin-bottom: 30px;
-    margin-left: 22px;
-    width: 56%;
+    margin: 30px 26px;
+    width: 55%;
 }
 
 /***FOOTER***/
