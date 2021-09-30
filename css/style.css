@@ -10,9 +10,17 @@
 }
 
 /***HEADER***/
-
 header {
 height: 100px;
 margin-top: 20px;
-background-color: rgb(253, 81, 245);
+background-color: rgb(252, 104, 244);
+}
+
+
+/***JUMBOTRON***/
+.jumbotron {
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(243, 222, 106);
 }
