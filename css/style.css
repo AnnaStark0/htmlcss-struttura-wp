@@ -9,6 +9,8 @@
     margin: auto;
 }
 
+
+
 /***FLOAT***/
 .left {
     float: left;
@@ -17,7 +19,6 @@
 .right {
     float: right;
 }
-
 
 
 /***HEADER***/
@@ -53,17 +54,24 @@ background-color: rgb(252, 104, 244);
     background-color: lightblue;
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 250px;
+    width: 20%;
 }
 
 /***Seconda Sezione***/
 .sect2 {
     background-color: lightblue;
     margin-top: 30px;
-    margin-right: 25px;
+    margin-right: 22px;
     margin-bottom: 30px;
-    margin-left: 25px;
-    width: 600px;
+    margin-left: 22px;
+    width: 56%;
+}
+
+/***FOOTER***/
+footer {
+    height: 70px;
+    background-color: rgb(177, 18, 240);
+    margin-top: 15px;
 }
 
 
