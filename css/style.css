@@ -20,6 +20,12 @@
     float: right;
 }
 
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 
 /***HEADER***/
 header {
@@ -37,33 +43,40 @@ background-color: rgb(252, 104, 244);
     background-color: rgb(243, 222, 106);
 }
 
-.maincontain {
-    background-color: rgb(34, 120, 250);
-}
+
 
 
 /***MAIN***/
 
+.maincontain {
+    background-color: rgb(34, 120, 250);
+}
+
 /***Sezione Principale***/
 .sezione {
-    background-color: lightblue;
+    
+}
+
+/***3SEZIONI***/
+.sezio {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 /***Prima e Terza Sezione***/
-.sect1-3 {
-    background-color: lightblue;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 20%;
+.se1{
+    width: 21%;
 }
 
 /***Seconda Sezione***/
-.sect2 {
-   
-    background-color: lightblue;
-    margin: 30px 26px;
-    width: 55%;
+.se2 {
+
+    margin-left: 27px;
+    margin-right: 27px;
+    width: 53%;
 }
+
+
 
 /***FOOTER***/
 footer {
@@ -83,13 +96,17 @@ footer {
     height: 600px;
 }
 
-/***Altezza Sezione Principale***/
+/***Altezza e Colore Sezione Principale***/
 .debug-sp {
     height: 100px;
+    background-color: lightblue;
 }
 
-/***Altezza Prima - Seconda - Sezione***/
+/***Altezza e Colore Prima - Seconda - Terza Sezione***/
 .debug-sez {
     height: 450px;
+    background-color: lightblue;
 }
+
+
 
