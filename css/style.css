@@ -9,6 +9,17 @@
     margin: auto;
 }
 
+/***FLOAT***/
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+
 /***HEADER***/
 header {
 height: 130px;
@@ -37,12 +48,22 @@ background-color: rgb(252, 104, 244);
     background-color: lightblue;
 }
 
-/***Prima Sezione***/
-.sect1 {
+/***Prima e Terza Sezione***/
+.sect1-3 {
     background-color: lightblue;
     margin-top: 30px;
     margin-bottom: 30px;
     width: 250px;
+}
+
+/***Seconda Sezione***/
+.sect2 {
+    background-color: lightblue;
+    margin-top: 30px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    width: 600px;
 }
 
 
@@ -61,7 +82,8 @@ background-color: rgb(252, 104, 244);
     height: 100px;
 }
 
-/***Altezza Prima Sezione***/
-.debug-s1 {
+/***Altezza Prima - Seconda - Sezione***/
+.debug-sez {
     height: 450px;
 }
+
